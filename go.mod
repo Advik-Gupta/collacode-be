@@ -1,4 +1,4 @@
-module github.com/yourusername/echo-server
+module github.com/Advik-Gupta/collacode-be
 
 go 1.24.1
 
@@ -16,3 +16,5 @@ require (
 	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 )
+
+replace github.com/Advik-Gupta/collacode-be => .

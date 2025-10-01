@@ -11,7 +11,6 @@ func NewRouter() *echo.Echo {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
-	// Simple route
 	e.GET("/ping", func(c echo.Context) error {
 		return c.String(200, "Pong")
 	})
